@@ -5,10 +5,9 @@
 
 # Instructions:
 ### Step 1: Data Download
-Download the "hls4ml_LHCjet_30p_train.tar.gz" from [Zenodo Link]([https://link-url-here.org](https://zenodo.org/records/3601436)).
-
+Download the "hls4ml_LHCjet_30p_train.tar.gz" from [Zenodo Link]([https://zenodo.org/records/3601436].
 ### Step 2: Process data
-Run the `processing_data.ipynb` notebook to create the cropped images organized into .npy data files with 10k images each for each jet class and organize your repository as instructed at the bottom of the notebook.
+Run the `processing_data.ipynb` notebook to create the Jet Images for each class, organized into .npy data files with 10k images. Then, organize your repository as instructed at the bottom of the notebook.
 
 ### Step 3: Train VAEs
 Run through the `training_VAEs.ipynb` notebook to train the VAE architectures for each preprocessing class of `log`, `truncated` and `scaled`. ROC curve data and associated plots will be automatically generated and saved. These can be further analyzed as desired. Pick well-performing models as the _teacher_ models for the next step. Suggested models are given at the end of the notebook.
