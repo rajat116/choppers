@@ -5,7 +5,7 @@
 
 # Instructions:
 ### Step 1: Data Download
-Download the "hls4ml_LHCjet_30p_train.tar.gz" from [Zenodo Link]([https://zenodo.org/records/3601436].
+Download the "hls4ml_LHCjet_30p_train.tar.gz" from [https://zenodo.org/records/3601436].
 ### Step 2: Process data
 Run the `processing_data.ipynb` notebook to create the Jet Images for each class, organized into .npy data files with 10k images. Then, organize your repository as instructed at the bottom of the notebook.
 
