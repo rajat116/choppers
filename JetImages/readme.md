@@ -1,8 +1,3 @@
-# Contents:
-1. `processing_data.ipynb`
-2. `training_VAEs.ipynb`
-3. `training_students.ipynb`
-
 # Instructions:
 ### Step 1: Data Download
 Download the "hls4ml_LHCjet_30p_train.tar.gz" from https://zenodo.org/records/3601436.
