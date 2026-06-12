@@ -16,3 +16,20 @@ Train the VAE (`teacher_training.ipynb`). This notebook also includes some evals
 
 ### Step 3:
 Train the NN students (`nn_students.ipynb`). This notebook also includes some evals and plots.
+
+### Step 4: Train BDT students
+```bash
+python train_tmva_bdt_allAD.py
+python run_tmva_inference_multi.py
+```
+
+### Step 5: Generate firmware configs (requires fwXmachina)
+```bash
+python export_fwX_configs_40MHz.py
+```
+
+### Step 6: Plot results and compute uncertainties
+```bash
+python plot_roc_paper_40MHz.py
+python compute_efficiency_uncertainties.py
+```
