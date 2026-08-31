@@ -15,7 +15,7 @@ https://zenodo.org/records/5055454
 Train the VAE (`teacher_training.ipynb`). This notebook also includes some evals and plots.
 
 ### Step 3:
-Train the NN students (`nn_students.ipynb`). This notebook also includes some evals and plots.
+Train the NN students (`nn_students.ipynb`). This notebook also includes some evals and plots. Additional studeies can be found in `nn_students_additional_studies.ipynb` and `nn_students_more_additional_studies.ipynb`.
 
 ### Step 4: Train BDT students
 ```bash
